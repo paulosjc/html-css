@@ -4,24 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+            */
+
+            /* Shorthand - background
+            Color > Image > Position > Repeat > [Size ???] > Attachment
+            */            
         }
 
         main{
             background-color: white;
-            width: 400px;
+            max-width: 400px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
             border-radius: 15px;
+        }
+
+        main > p{
+            text-indent: 15px;
         }
     </style>
 </head>
@@ -29,6 +43,12 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque vero doloribus omnis fugit, obcaecati provident sapiente sint velit. Commodi praesentium reprehenderit nihil magni architecto earum possimus accusantium, facilis a doloremque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio pariatur voluptatibus repellat rem illum sequi dolor animi omnis doloribus corporis! Ea culpa aut eaque natus voluptas recusandae facere accusantium voluptate. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem hic, ex atque facere ullam soluta aut temporibus quod voluptatibus iure quas, unde modi eveniet impedit esse minus neque id ipsum.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores voluptates accusamus non rem quidem itaque error omnis blanditiis, recusandae delectus officia, nobis earum ipsa mollitia iste dolorem totam in doloremque. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim inventore necessitatibus, eaque impedit pariatur a omnis beatae, quidem esse, eveniet vero? Enim excepturi quaerat ipsam autem debitis illo labore perspiciatis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem commodi reprehenderit amet ducimus maxime iure ipsa ipsum eos unde! Nostrum reprehenderit debitis modi excepturi saepe laudantium quos dignissimos praesentium nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quibusdam nam magni officiis, temporibus delectus error maxime debitis facilis sunt a earum voluptas nihil! Qui quos sed provident earum corrupti!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum sed dicta fuga veritatis, quidem iure ab, odit quasi doloribus delectus impedit deserunt totam molestiae voluptatibus eligendi facilis sunt reprehenderit harum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam fugiat eveniet, ipsam tenetur amet deserunt quo in dolore neque rem quae quibusdam esse porro aut necessitatibus ipsa asperiores vel maiores!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, tempore neque nobis odit corporis magni itaque totam, quis dolor deleniti unde? Nobis fuga et ea sint, asperiores harum quibusdam obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam sunt, eos est tempora soluta voluptates ullam quo iusto maxime fugit voluptate quae in repudiandae voluptatum, sit vero dicta ut ducimus.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti quas voluptas corrupti iste. Inventore, incidunt placeat corporis rerum fugiat earum at vitae deserunt provident, officia perspiciatis quasi eveniet nobis animi! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis dolores, sunt ratione officiis autem totam. Reprehenderit provident repellendus, reiciendis vero vitae veritatis fugiat ea eos ducimus non molestias quos tempore.</p>
+
     </main>
 </body>
 </html>

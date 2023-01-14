@@ -1,2 +1,4 @@
 # html-css
- Repositório do curso de HTML e CSS
+ Curso de de HTML e CSS do Cursoemvideo.
+
+ Estou aprendendo a criar sites e agora vou gerenciar meus repositórios.

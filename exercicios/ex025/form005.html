@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isexmas" checked><label for="isexmas">Masculino</label>
+            <input type="radio" name="sexo" id="isexfem"><label for="isexfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="bas" id="ibas"> <label for="ibas">Basquete</label> <br>
+            <input type="checkbox" name="esfut" id="iesfut" checked> <label for="iesfut">Futebol</label> <br>
+            <input type="checkbox" name="nat" id="inat"> <label for="inat">Natação</label> <br>
+            <input type="checkbox" name="vol" id="ivol"> <label for="ivol">Vôlei</label> <br>
+            <input type="checkbox" name="ten" id="iten"> <label for="iten">Tênis</label> <br>
+            <input type="checkbox" name="bei" id="ibei"> <label for="ibei">Beisebol</label> <br>
+            <input type="checkbox" name="golf" id="igolf"> <label for="igolf">Golfe</label> <br>
+            <input type="checkbox" name="corr" id="icorr"> <label for="icorr">Corrida</label> <br>
+            <input type="checkbox" name="polo" id="ipolo"> <label for="ipolo">Pólo</label> <br>
+            <input type="checkbox" name="rug" id="irug"> <label for="irug">Rugby</label> <br>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

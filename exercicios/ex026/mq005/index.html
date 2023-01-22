@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores pariatur accusantium ipsum? Facilis reprehenderit nulla, beatae quod, aut eligendi commodi natus, temporibus porro rerum inventore modi repellendus tenetur dolor nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis debitis tempore nihil voluptatum! Blanditiis reiciendis ducimus quod! Soluta ducimus possimus modi sed fugit recusandae atque nihil officia minima numquam? Eligendi?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam eum laborum velit laboriosam voluptatum a cumque sit modi sapiente ea, rem, est obcaecati. Unde, quam! Voluptatem ipsum officiis dolorum dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque assumenda ullam voluptatem, quas veritatis consequatur. Minima distinctio cumque adipisci deserunt at sint, illum magnam beatae placeat ipsum nisi dolor!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat qui consequatur facilis, debitis provident praesentium ipsa? Dignissimos, provident. Iusto commodi ex aliquid ipsa obcaecati aliquam officiis, facilis id rem tempore.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
